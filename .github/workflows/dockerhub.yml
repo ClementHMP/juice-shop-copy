@@ -25,4 +25,4 @@ jobs:
       with:
        context: DockerFileFolder/
        push: true
-       tags: clementhmp/juice-shop-hmp:latest
+       tags: ${{ secrets.DOCKERHUB_USERNAME }}/juice-shop-hmp:latest
