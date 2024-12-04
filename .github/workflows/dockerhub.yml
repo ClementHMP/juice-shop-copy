@@ -23,6 +23,6 @@ jobs:
     - name: Build and push to dockerhub
       uses: docker/build-push-action@v5
       with:
-       context: DockerFileFolder/
+       context: 
        push: true
        tags: ${{ secrets.DOCKERHUB_USERNAME }}/juice-shop-hmp:latest
